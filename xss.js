@@ -2,7 +2,7 @@
 /**
  * 默认配置
  *
- * @author 老雷<leizongmin@gmail.com>
+ * @
  */
 
 var FilterCSS = require('cssfilter').FilterCSS;
@@ -417,7 +417,7 @@ exports.getDefaultCSSWhiteList = getDefaultCSSWhiteList;
 /**
  * 模块入口
  *
- * @author 老雷<leizongmin@gmail.com>
+ * 
  */
 
 var DEFAULT = require('./default');
@@ -454,7 +454,7 @@ if (typeof window !== 'undefined') {
 /**
  * 简单 HTML Parser
  *
- * @author 老雷<leizongmin@gmail.com>
+ * 
  */
 
 var _ = require('./util');
@@ -724,7 +724,7 @@ module.exports = {
 /**
  * 过滤XSS
  *
- * @author 老雷<leizongmin@gmail.com>
+ *
  */
 
 var FilterCSS = require('cssfilter').FilterCSS;
@@ -937,7 +937,7 @@ module.exports = FilterXSS;
 /**
  * cssfilter
  *
- * @author 老雷<leizongmin@gmail.com>
+ * 
  */
 
 var DEFAULT = require('./default');
@@ -1042,7 +1042,7 @@ module.exports = FilterCSS;
 /**
  * cssfilter
  *
- * @author 老雷<leizongmin@gmail.com>
+ * @
  */
 
 function getDefaultWhiteList () {
@@ -1427,7 +1427,7 @@ exports.onIgnoreAttr = onIgnoreAttr;
 /**
  * cssfilter
  *
- * @author 老雷<leizongmin@gmail.com>
+ * 
  */
 
 var DEFAULT = require('./default');
@@ -1461,7 +1461,7 @@ if (typeof window !== 'undefined') {
 /**
  * cssfilter
  *
- * @author 老雷<leizongmin@gmail.com>
+ * 
  */
 
 var _ = require('./util');
